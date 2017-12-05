@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6f5d3d05d70b58db9144bb1ca70c8698",
-    "content-hash": "3b0766dbcef4dfb1a4a2012fef8611d8",
+    "hash": "79289e6b7039b78622b621884e7b80ef",
+    "content-hash": "4696deabfff189a28bbdfbafb9bf6680",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -300,6 +300,53 @@
                 "router"
             ],
             "time": "2017-11-26 19:13:09"
+        },
+        {
+            "name": "webonyx/graphql-php",
+            "version": "v0.11.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webonyx/graphql-php.git",
+                "reference": "3536280fac093cd482c439d4cf361ff60d3e47e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/3536280fac093cd482c439d4cf361ff60d3e47e6",
+                "reference": "3536280fac093cd482c439d4cf361ff60d3e47e6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.5,<8.0-DEV"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8",
+                "psr/http-message": "^1.0"
+            },
+            "suggest": {
+                "psr/http-message": "To use standard GraphQL server",
+                "react/promise": "To leverage async resolving on React PHP platform"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/deprecated.php"
+                ],
+                "psr-4": {
+                    "GraphQL\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "description": "A PHP port of GraphQL reference implementation",
+            "homepage": "https://github.com/webonyx/graphql-php",
+            "keywords": [
+                "api",
+                "graphql"
+            ],
+            "time": "2017-11-28 13:27:06"
         }
     ],
     "packages-dev": [],

@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     '253c157292f75eb38082b5acb06f3f01' => $vendorDir . '/nikic/fast-route/src/functions.php',
+    'c594688b3441835d5575f3085da4a242' => $vendorDir . '/webonyx/graphql-php/src/deprecated.php',
 );

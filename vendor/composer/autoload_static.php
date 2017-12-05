@@ -8,6 +8,7 @@ class ComposerStaticInit1ec6d1b3414f8fc33d407c27c864b370
 {
     public static $files = array (
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
+        'c594688b3441835d5575f3085da4a242' => __DIR__ . '/..' . '/webonyx/graphql-php/src/deprecated.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -23,6 +24,10 @@ class ComposerStaticInit1ec6d1b3414f8fc33d407c27c864b370
         'I' => 
         array (
             'Interop\\Container\\' => 18,
+        ),
+        'G' => 
+        array (
+            'GraphQL\\' => 8,
         ),
         'F' => 
         array (
@@ -46,6 +51,10 @@ class ComposerStaticInit1ec6d1b3414f8fc33d407c27c864b370
         'Interop\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container',
+        ),
+        'GraphQL\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/webonyx/graphql-php/src',
         ),
         'FastRoute\\' => 
         array (
